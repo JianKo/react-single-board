@@ -1,4 +1,9 @@
-import './App.css';
+/*
+ @ Date : 2012-12-20
+ @ Descript
+ - Page Route Setup
+
+*/
 import { BrowserRouter, Route } from "react-router-dom"
 import {BoardCreate, BoardList} from "./pages";
 

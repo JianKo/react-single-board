@@ -1,11 +1,10 @@
 /* 
     @ Descript
-    : Business Logic
+    : Business Logic Part
 
 */
-import React from "react"
 
-// GET JSON
+// Read Data with "fetch API"
 const ReadOnData = async (e) => {
 
     const URL = "http://192.168.200.123:8000/brd/read";

@@ -34,6 +34,7 @@ function BoardRead() {
     return (
 
         <>
+        {/* 조건부 렌더링을 위한 IIFE 적용 */}
             {
                 (function () {
                     if (reqData === "Loading") return (<div>Loading</div>);
